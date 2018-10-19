@@ -13,7 +13,7 @@ class EmailParser
     emails.split.collect do |email|
       email ||= email
       email.split(",").flatten
+    end
   end
-end
 
 end
