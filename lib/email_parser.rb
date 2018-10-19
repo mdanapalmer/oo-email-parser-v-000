@@ -1,16 +1,17 @@
 class EmailParser
 
-  def initialize(email)
-    @email = email
+  def initialize(emails)
+    @emails = emails
   end
 
-  def email
-    @email
+  def emails
+    @emails
   end
 
 
   def parse(emails)
-    emails.split(",")
+    emails.split.collect do |email|
+      
   end
 
 end
